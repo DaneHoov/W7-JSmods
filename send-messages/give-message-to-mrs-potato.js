@@ -1,4 +1,5 @@
-
+const  { sayHelloTo } = require('./say-hello-to.js')
+// const sayHelloTo = say-hello-to.sayHelloTo
 
 function giveMessageToMrsPotato(message) {
   sayHelloTo("Mrs. Potato");
